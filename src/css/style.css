@@ -4,7 +4,6 @@ body {
     background-repeat: no-repeat; /* Setando para não repetir a imagem após o termino.*/
     background-size: cover; /* Setando para a imagem ocupar toda a parte do body.*/
     min-height: 100vh;
-
 }
 
 .cabecalho {
@@ -30,14 +29,12 @@ body {
     justify-content: center;
     gap: 80px; 
     margin: 60px 0;
-
 }
 
 .lista-pokemons {
     width: 310px;
     height: 520px;
     position: relative;
-
 }
 
 .btn-seta {
@@ -100,7 +97,6 @@ body {
     padding: 8px 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
 }
 
 .cartao .informacoes .nome {
