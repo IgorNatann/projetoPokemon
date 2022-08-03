@@ -8,6 +8,9 @@
 
     <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon">
 
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,33 +20,34 @@
 
   </head>
   <body>
-    <header>
-      <img src="src/imagens/pokebola.png" alt="imagen-ilustrativa-pokébola" />
-      <h1>MapaDev Week</h1>
+    <header class="cabecalho">
+      <img src="src/imagens/pokebola.png" alt="imagen-ilustrativa-pokébola" class="pokebola" />
+      <h1 class="titulo">MapaDev Week</h1>
     </header>
 
-    <main>
-      <button>
+    <main class="pokemon-slider">
+      <button class="btn-seta btn-voltar">
         <img src="src/imagens/seta.png" alt="imagen-seta-voltar" />
       </button>
 
-      <ul>
-        <li>
-          <div>
-            <h2>Pikachu</h2>
-            <p>HP 300</p>
+      <ul class="lista-pokemons">
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Pikachu</h2>
+            <p class="vida">HP 300</p>
           </div>
 
-          <div>
+          <div class="container-imagem">
             <img
               src="src/imagens/pikachu.png"
               alt="imagen-ilustrativa-pikachu"
+              class="imagem-pokemon"
             />
           </div>
 
-          <div>
-            <h3>Descrição</h3>
-            <p>
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Repellendus dolores dolorum animi! Voluptatem iste est blanditiis
               suscipit molestias quod harum nobis ipsa assumenda illum
@@ -52,22 +56,23 @@
           </div>
         </li>
 
-        <li>
-          <div>
-            <h2>Charizard</h2>
-            <p>HP 800</p>
+        <li class="cartao fundo-2">
+          <div class="informacoes">
+            <h2 class="nome">Charizard</h2>
+            <p class="vida">HP 800</p>
           </div>
 
-          <div>
+          <div class="container-imagem">
             <img
               src="src/imagens/charizard.png"
               alt="imagen-ilustrativa-charizard"
+              class="imagem-pokemon"
             />
           </div>
 
-          <div>
-            <h3>Descrição</h3>
-            <p>
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero sit
               sequi beatae in ipsum, similique veniam illo sint provident eos
               molestiae deserunt odit, non voluptatum autem quibusdam odio
@@ -76,19 +81,19 @@
           </div>
         </li>
 
-        <li>
-          <div>
-            <h2>Mewtwo</h2>
-            <p>HP 1200</p>
+        <li class="cartao fundo-3">
+          <div class="informacoes">
+            <h2 class="nome">Mewtwo</h2>
+            <p class="vida">HP 1200</p>
           </div>
 
-          <div>
-            <img src="src/imagens/mewtwo.png" alt="imagen-ilustrativa-mewtwo" />
+          <div class="container-imagem">
+            <img src="src/imagens/mewtwo.png" alt="imagen-ilustrativa-mewtwo" class="imagem-pokemon" />
           </div>
 
-          <div>
-            <h3>Descrição</h3>
-            <p>
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero sit
               sequi beatae in ipsum, similique veniam illo sint provident eos
               molestiae deserunt odit, non voluptatum autem quibusdam odio
@@ -98,7 +103,7 @@
         </li>
       </ul>
 
-      <button>
+      <button class="btn-seta">
         <img src="src/imagens/seta.png" alt="imagen-seta-avançar" />
       </button>
     </main>
