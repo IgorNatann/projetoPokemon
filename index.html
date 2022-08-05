@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto Pokemon Slider</title>
 
-    <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="src/imagens/pokebola.png"
+      type="image/x-icon"
+    />
 
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsivo.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,16 +22,19 @@
       href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
       rel="stylesheet"
     />
-
   </head>
   <body>
     <header class="cabecalho">
-      <img src="src/imagens/pokebola.png" alt="imagen-ilustrativa-pokébola" class="pokebola" />
+      <img
+        src="src/imagens/pokebola.png"
+        alt="imagen-ilustrativa-pokébola"
+        class="pokebola"
+      />
       <h1 class="titulo">MapaDev Week</h1>
     </header>
 
     <main class="pokemon-slider">
-      <button class="btn-seta btn-voltar">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
         <img src="src/imagens/seta.png" alt="imagen-seta-voltar" />
       </button>
 
@@ -89,7 +96,11 @@
           </div>
 
           <div class="container-imagem">
-            <img src="src/imagens/mewtwo.png" alt="imagen-ilustrativa-mewtwo" class="imagem-pokemon" />
+            <img
+              src="src/imagens/mewtwo.png"
+              alt="imagen-ilustrativa-mewtwo"
+              class="imagem-pokemon"
+            />
           </div>
 
           <div class="descricao">
@@ -104,9 +115,11 @@
         </li>
       </ul>
 
-      <button class="btn-seta">
+      <button class="btn-seta" id="btn-avancar">
         <img src="src/imagens/seta.png" alt="imagen-seta-avançar" />
       </button>
     </main>
+
+    <script src="src/js/index.js"></script>
   </body>
 </html>
